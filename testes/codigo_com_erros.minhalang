@@ -1,0 +1,21 @@
+// Arquivo de teste com ERROS SEMÂNTICOS
+
+int a;
+float b;
+string s;
+
+a = 10;
+s = "ola";
+
+// --- Erros de Tipo ---
+a = s; // ERRO: Esperava 'int', recebeu 'string'
+b = s + a; // ERRO: Não pode misturar 'string' com 'int'
+
+// --- Erros de Declaração ---
+c = 100; // ERRO: 'c' não foi declarada
+
+printf(d); // ERRO: 'd' não foi declarada
+
+scanf(e); // ERRO: 'e' não foi declarada
+
+int a; // ERRO: 'a' já foi declarada

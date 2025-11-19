@@ -1,0 +1,23 @@
+// Arquivo de teste CORRETO
+
+int a;
+float b;
+string s;
+
+a = 10;
+b = 20.5;
+s = "ola mundo";
+
+if (a > 5) {
+    b = a + 15.0; // int + float = float (permitido)
+} else {
+    a = 1;
+}
+
+for (a = 0; a < 10; a = a + 1) {
+    printf("iteracao");
+}
+
+int c;
+scanf(c); // ok
+printf(c); // ok

@@ -6,7 +6,7 @@ O compilador implementa a análise léxica, sintática e semântica, identifican
 
 ---
 
-## 👨‍💻 Autores (Exemplo)
+## 👨‍💻 Alunos
 
 * **Kauan Guilherme Pinto Dos Santos - 12724228176**
 * **Juliana Gleice Silva de Farias- 1262420824.**
